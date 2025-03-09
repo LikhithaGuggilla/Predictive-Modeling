@@ -89,10 +89,6 @@ To ensure efficiency and scalability, an end-to-end ML pipeline in PySpark was i
 * The optimized model outperformed the baseline 17%, achieving a notable improvement in F1-score.
 
 ---
-
-
-## Conclusion  
-This project successfully demonstrates how **a structured ML pipeline can be leveraged to predict cryptocurrency price movements**.  
-By strategically integrating **feature engineering, model selection, and hyperparameter tuning**, a **highly efficient and scalable predictive model** was developed.  
+ 
 
 
