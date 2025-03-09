@@ -26,8 +26,13 @@ The dataset, sourced from bitgrit, consists of 2,660 records and 78 features, co
    - `1` → Price *increased* after two weeks.
 ### Key Observations from Data Exploration  
 - Market-driven features exhibited stronger correlations with price movements compared to search trends.  
-- `TR_3_EventInd` emerged as a highly influential feature, demonstrating a strong correlation with price increases.  
+- `TR_3_EventInd` emerged as a highly influential feature, demonstrating a strong correlation with price increases.
+
+  ![Event Type vs Price Fluctuation](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Crypto_Price_Fluctuation_Prediction_Using_PySpark/Images/Event%20Type%20vs%20Price%20Fluctuation.png)
+  
 - Search trend indicators (`index_2`, `index_3`) showed moderate relevance, while `index_1` had minimal impact.
+
+  ![Search Trend vs Price Fluctuation](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Crypto_Price_Fluctuation_Prediction_Using_PySpark/Images/Search%20Trend%20vs%20Price%20Fluctuation.png)
 
 ---
 
@@ -66,6 +71,10 @@ To ensure efficiency and scalability, an end-to-end ML pipeline in PySpark was i
 | Decision Tree  | 0.72         | 0.64     |
 | XGBoost       | 0.74         | 0.66     |
 | **Random Forest** | **0.76**  | **0.68** |
+
+![Model Evauation](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Crypto_Price_Fluctuation_Prediction_Using_PySpark/Images/Model%20Evaluation.png)
+
+![ROC Curve](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Crypto_Price_Fluctuation_Prediction_Using_PySpark/Images/ROC%20Curve.png)
 
 * **Random Forest was selected as the final model**, achieving an **F1-score of 0.68**, improving upon the **baseline of 0.51**.  
 * Feature selection reduced complexity without compromising performance.  
