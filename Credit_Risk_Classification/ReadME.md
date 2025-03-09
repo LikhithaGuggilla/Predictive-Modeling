@@ -40,16 +40,20 @@ This project leverages predictive modeling to **classify customers into high-ris
 ## Key Insights from Exploratory Data Analysis   
 
 1. **Customers with an extensive credit history** are generally classified as **low risk**, indicating that a well-established credit track record contributes to financial stability.
-   []
 
-2. **Longer payment delays** are strongly associated with **higher credit risk**, as frequent late payments suggest **financial instability or poor repayment behavior**.
-   []
+   ![Credit Risk vs Age](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Credit_Risk_Classification/Images/Credit%20Risk%20Age%20%20vs%20Risk.png)
 
-3. **High-risk borrowers often receive lower interest rates**, which may indicate **inefficiencies in risk-based pricing strategies**, potentially leading to **mispriced lending decisions**.
-   []
+3. **Longer payment delays** are strongly associated with **higher credit risk**, as frequent late payments suggest **financial instability or poor repayment behavior**.
 
-4. **The top 20% of low-risk customers are 1.7× more likely to repay their loans**, highlighting the **benefits of prioritizing low-risk borrowers** in lending strategies.
-   []
+   ![Avg Payment Delay](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Credit_Risk_Classification/Images/Avg%20Payment%20Delay%20vs%20Risk.png)
+
+5. **High-risk borrowers often receive lower interest rates**, which may indicate **inefficiencies in risk-based pricing strategies**, potentially leading to **mispriced lending decisions**.
+
+   ![Interest Rate](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Credit_Risk_Classification/Images/Interest%20Rate%20vs%20Risk.png)
+
+7. **The top 20% of low-risk customers are 1.7× more likely to repay their loans**, highlighting the **benefits of prioritizing low-risk borrowers** in lending strategies.
+   
+   ![Lift Curve](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Credit_Risk_Classification/Images/Lift%20Curve.png)
 
 ---
 
@@ -73,6 +77,8 @@ Naïve Bayes
 |--------|-------|
 | **Total Accuracy** | **84.07%** |
 | **AUC Score** | **0.8963** |
+
+![ROC Curve](https://github.com/LikhithaGuggilla/Predictive-Modeling/blob/main/Credit_Risk_Classification/Images/ROC%20Curve.png)
 
 ---
 
