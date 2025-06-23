@@ -10,7 +10,7 @@ Each row represents loan borrower's demographic details, credit usage, payment b
 **Source:** Kaggle (https://www.kaggle.com/datasets/parisrohan/credit-score-classification?select=train.csv)
 
 **Method:**
-1. Dealt  messy data, redundancy & data errors with robust techniques like long-to-wide, elimination, aggregation, imputation, missing data pattern, normalization and domain knowledge improving the model's accuracy by 45%.
+1. Utilized long-to-wide, elimination, aggregation, imputation, missing data pattern, normalization and domain knowledge to deal with messy data, redundancy (converting 8 rows to a single data point) & data errors improving the model's accuracy by 45%.
 2.  Performed correlation, principal component (PCA), univariate (IQR plots) & multivariate outlier analysis (Mahalanobis distance) and feature importance uncovering key risk factors like delinquency, credit usage, net disposable balance etc for loan default.
 3. Partitioned the data into train, validation, test. Built and compared models-Logistic Regression, Decision Tree, Random Forest, XG Boost etc improving the accuracy to 84.07% (Decision tree) on test data while addressing class imbalance with SMOTE, focusing on sensitivity/False Negative (FN) Reduction adjusting cut-off and balancing models bias-variance.
 
